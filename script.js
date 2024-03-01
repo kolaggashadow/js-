@@ -8,7 +8,7 @@ window.onload = function() {
 
 
   // 初始状态下隐藏预览和菜单
-    continer.style.backgroundImage="url(image/1.jpg)";
+    continer.style.backgroundImage="url(1.jpg)";
     preview.style.display = 'none';
     menu.style.display = 'none';
 
@@ -17,13 +17,13 @@ window.onload = function() {
     image.addEventListener('click', function() {
         preview.style.display = 'block';
         menu.style.display = 'block';
-        preview.style.backgroundImage="url(image/1.jpg)";
+        preview.style.backgroundImage="url(1.jpg)";
     });
     
 
     // 创建一个数组
-    var imgs =["image/1.jpg", "image/2.jpg", "image/3.jpg","image/4.jpg"
-    ,"image/5.jpg","image/6.jpg","image/7.jpg","image/8.jpg"]; 
+    var imgs =["1.jpg", "2.jpg", "3.jpg","4.jpg"
+    ,"5.jpg","6.jpg","7.jpg","8.jpg"]; 
     // 获取数组中的元素
     for(var i=0;i<=imgs.length;i++){
 
@@ -41,7 +41,7 @@ window.onload = function() {
     //  时间循环类型
     
     var i = 0;
-    continer.style.background="url(image/1.jpg)   center center no-repeat";   
+    continer.style.background="url(1.jpg)   center center no-repeat";   
             function time(){
                    i++;   
                    i=i%imgs.length;         
